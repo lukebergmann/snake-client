@@ -1,4 +1,5 @@
 const net = require('net');
+const { ip, port } = require('./constants');
 
 const connect = function () {
   const conn = net.createConnection({
