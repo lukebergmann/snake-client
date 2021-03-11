@@ -11,6 +11,12 @@ const handleUserInput = function(key) {
   connection.write("Move: down");
 } else if (key === 'd') {
   connection.write("Move: right")
+} else if (key === ',') {
+  connection.write("Say: im-a-snek")
+} else if (key === '.') {
+  connection.write("Say: hummus")
+} else if (key === '/') {
+  connection.write("Say: beyonce")
 }
 }
 
